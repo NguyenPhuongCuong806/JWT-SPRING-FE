@@ -1,0 +1,16 @@
+.forbidden-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow-y: auto;
+
+    .img-forbidden {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-image: url('../../assest/img/forbidden.jpg');
+        border-radius: 50%;
+
+    }
+}
